@@ -1,0 +1,25 @@
+.plants-store {
+  margin: 30px auto;
+  color:rgb(17, 17, 17);
+}
+
+.top {
+  margin-top: 50px;
+}
+
+.bottom {
+  margin-bottom: 50px;
+}
+
+.categories{
+  display: flex;
+  flex-wrap: wrap;
+}
+.categories a{
+  background-color: #c3c2c2;
+  padding: .3rem 1rem;
+  margin: .2rem .15rem;
+  border-radius: 10rem;
+  color: blue;
+  font-weight: 600;
+}

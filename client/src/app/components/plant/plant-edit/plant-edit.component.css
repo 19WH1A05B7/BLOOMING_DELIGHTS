@@ -1,0 +1,9 @@
+.fas {
+  top: 8px;
+  content: "\f156";
+    position: absolute;
+    top: 9px;
+    left: 14px;
+    color: #32520b;
+    font-size: 30px;
+}

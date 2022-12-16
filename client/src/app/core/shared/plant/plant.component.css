@@ -1,0 +1,29 @@
+.plant-card {
+  background-color: rgb(125, 224, 120);
+  border: 5px solid transparent;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  width: 15%;
+}
+
+.plant-card img {
+  width: 100%;
+  height: 250px;
+}
+
+.plant-card h5 {
+  display: inline-block;
+  font-size: 19px;
+}
+
+.plant-card h5, .plant-card h6, .plant-card p {
+  margin: 10px 10px;
+}
+
+.plant-card:hover {
+  background-color: burlywood;
+  border-color: burlywood;
+  color: #000;
+}
+

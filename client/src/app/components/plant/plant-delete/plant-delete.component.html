@@ -1,0 +1,26 @@
+<div class="form delete-plant-form">
+  <form #formDir="ngForm" [formGroup]="deletePlantForm" (ngSubmit)="onSubmit()">
+    <h1>Delete Product</h1>
+    <div class="form-field">
+      <input type="text" class="title" name="title" placeholder="Plant Title" formControlName="title" disabled />
+      <i class="fas fa-plant" aria-hidden="true"></i>
+    </div>
+    <div class="form-field">
+      <input type="text" class="vendor" name="vendor" placeholder="Plant Vendor" formControlName="vendor" disabled />
+      <i class="fas fa-user" aria-hidden="true"></i>
+    </div>
+    <div class="form-field">
+      <input type="text" class="product_category" name="product_category" placeholder="Product Category" formControlName="product_category" disabled />
+      <i class="fas fa-user" aria-hidden="true"></i>
+    </div>
+    <div class="form-field">
+      <textarea class="description" name="description" placeholder="Plant description" formControlName="description" cols="30" rows="3" disabled></textarea>
+      <i class="fas fa-pen" aria-hidden="true"></i>
+    </div>
+    <div class="form-field">
+      <input type="number" class="price" name="price" placeholder="Plant Price" formControlName="price" step="0.1" disabled />
+      <i class="fas fa-rupee-sign" aria-hidden="true"></i>
+    </div>
+    <input type="submit" class="submit delete-plant" value="Confirm Delete" />
+  </form>
+</div>

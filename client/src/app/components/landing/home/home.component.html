@@ -1,0 +1,19 @@
+<h1><marquee direction="right">Welcome to Blooming Delights </marquee></h1>
+<div *ngIf="mostPurchasedPlants" class="plants-home">
+  <div class="panel">
+    <h2>Most Purchased Products</h2>
+  </div>
+  <app-plant *ngFor="let plant of mostPurchasedPlants" [plant]="plant"></app-plant>
+</div>
+<div *ngIf="bestRatedPlants" class="plants-home">
+  <div class="panel">
+    <h2>Best Rated Producs</h2>
+  </div>
+  <app-plant *ngFor="let plant of bestRatedPlants" [plant]="plant"></app-plant>
+</div>
+<div *ngIf="newestPlants" class="plants-home">
+  <div class="panel">
+    <h2>Newest Products</h2>
+  </div>
+  <app-plant *ngFor="let plant of newestPlants" [plant]="plant"></app-plant>
+</div>

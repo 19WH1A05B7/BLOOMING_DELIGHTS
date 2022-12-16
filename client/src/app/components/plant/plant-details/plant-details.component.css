@@ -1,0 +1,39 @@
+.plant-details {
+  width: 100%;
+}
+
+.plant-details img {
+  border-radius: 5px;
+}
+
+.plant-info {
+  padding: 30px;
+  background-color: rgb(0 123 255 / 25%);
+  border-radius: 15px;
+}
+
+.plant-info a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.plant-info button {
+  margin: 10px 10px 10px 0;
+}
+
+.plant-description {
+  text-align: justify;
+}
+
+.plant-details div {
+  margin: 50px auto;
+  text-align: left;
+}
+
+.checked {
+  color: orange;
+}
+
+#admin-panel {
+  margin: 0;
+}
